@@ -1,0 +1,10 @@
+DROP DATABASE IF EXISTS companydb;
+CREATE DATABASE companydb CHARSET utf8MB4;
+USE companydb;
+
+CREATE TABLE employee (
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(50) DEFAULT NULL,
+    salary INT DEFAULTNULL,
+    PRIMARY KEY(id)
+)
